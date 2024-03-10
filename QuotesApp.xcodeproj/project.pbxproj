@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		0412D6872B963CAF000C9CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412D6862B963CAF000C9CF8 /* AppDelegate.swift */; };
 		0412D6892B963CAF000C9CF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412D6882B963CAF000C9CF8 /* SceneDelegate.swift */; };
-		0412D68B2B963CAF000C9CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412D68A2B963CAF000C9CF8 /* ViewController.swift */; };
-		0412D68E2B963CAF000C9CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0412D68C2B963CAF000C9CF8 /* Main.storyboard */; };
+		0412D68B2B963CAF000C9CF8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412D68A2B963CAF000C9CF8 /* MainViewController.swift */; };
 		0412D6902B963CB1000C9CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0412D68F2B963CB1000C9CF8 /* Assets.xcassets */; };
 		0412D6932B963CB1000C9CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0412D6912B963CB1000C9CF8 /* LaunchScreen.storyboard */; };
+		047C183C2B96433C00FAEB18 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 047C183B2B96433C00FAEB18 /* SnapKit */; };
+		047C183E2B96433C00FAEB18 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 047C183D2B96433C00FAEB18 /* SnapKit-Dynamic */; };
+		047C18402B96454500FAEB18 /* QuoteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C183F2B96454500FAEB18 /* QuoteAPI.swift */; };
+		047C18462B973E4300FAEB18 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C18452B973E4300FAEB18 /* DetailViewController.swift */; };
+		047C18482B97408B00FAEB18 /* ImageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C18472B97408B00FAEB18 /* ImageAPI.swift */; };
+		047C184A2B97445000FAEB18 /* JokeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C18492B97445000FAEB18 /* JokeAPI.swift */; };
+		047C184C2B97448D00FAEB18 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C184B2B97448D00FAEB18 /* JokesViewController.swift */; };
+		047C184E2B97457F00FAEB18 /* SegmentSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C184D2B97457F00FAEB18 /* SegmentSwitchViewController.swift */; };
+		047C18502B9746D400FAEB18 /* NorrisAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C184F2B9746D400FAEB18 /* NorrisAPI.swift */; };
+		047C18522B97473500FAEB18 /* ChuckNorrisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C18512B97473500FAEB18 /* ChuckNorrisViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0412D6832B963CAF000C9CF8 /* QuotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0412D6862B963CAF000C9CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0412D6882B963CAF000C9CF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0412D68A2B963CAF000C9CF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0412D68D2B963CAF000C9CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0412D68A2B963CAF000C9CF8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0412D68F2B963CB1000C9CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0412D6922B963CB1000C9CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0412D6942B963CB1000C9CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047C183F2B96454500FAEB18 /* QuoteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteAPI.swift; sourceTree = "<group>"; };
+		047C18452B973E4300FAEB18 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		047C18472B97408B00FAEB18 /* ImageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAPI.swift; sourceTree = "<group>"; };
+		047C18492B97445000FAEB18 /* JokeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeAPI.swift; sourceTree = "<group>"; };
+		047C184B2B97448D00FAEB18 /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
+		047C184D2B97457F00FAEB18 /* SegmentSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentSwitchViewController.swift; sourceTree = "<group>"; };
+		047C184F2B9746D400FAEB18 /* NorrisAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorrisAPI.swift; sourceTree = "<group>"; };
+		047C18512B97473500FAEB18 /* ChuckNorrisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047C183C2B96433C00FAEB18 /* SnapKit in Frameworks */,
+				047C183E2B96433C00FAEB18 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +74,38 @@
 		0412D6852B963CAF000C9CF8 /* QuotesApp */ = {
 			isa = PBXGroup;
 			children = (
+				04F1B11D2B9DDD9F00E3AF36 /* APIServices */,
+				04F1B11C2B9DDD3B00E3AF36 /* Views */,
 				0412D6862B963CAF000C9CF8 /* AppDelegate.swift */,
 				0412D6882B963CAF000C9CF8 /* SceneDelegate.swift */,
-				0412D68A2B963CAF000C9CF8 /* ViewController.swift */,
-				0412D68C2B963CAF000C9CF8 /* Main.storyboard */,
 				0412D68F2B963CB1000C9CF8 /* Assets.xcassets */,
 				0412D6912B963CB1000C9CF8 /* LaunchScreen.storyboard */,
 				0412D6942B963CB1000C9CF8 /* Info.plist */,
 			);
 			path = QuotesApp;
+			sourceTree = "<group>";
+		};
+		04F1B11C2B9DDD3B00E3AF36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				047C184D2B97457F00FAEB18 /* SegmentSwitchViewController.swift */,
+				047C18512B97473500FAEB18 /* ChuckNorrisViewController.swift */,
+				047C184B2B97448D00FAEB18 /* JokesViewController.swift */,
+				047C18452B973E4300FAEB18 /* DetailViewController.swift */,
+				0412D68A2B963CAF000C9CF8 /* MainViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04F1B11D2B9DDD9F00E3AF36 /* APIServices */ = {
+			isa = PBXGroup;
+			children = (
+				047C184F2B9746D400FAEB18 /* NorrisAPI.swift */,
+				047C18492B97445000FAEB18 /* JokeAPI.swift */,
+				047C18472B97408B00FAEB18 /* ImageAPI.swift */,
+				047C183F2B96454500FAEB18 /* QuoteAPI.swift */,
+			);
+			path = APIServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +124,10 @@
 			dependencies = (
 			);
 			name = QuotesApp;
+			packageProductDependencies = (
+				047C183B2B96433C00FAEB18 /* SnapKit */,
+				047C183D2B96433C00FAEB18 /* SnapKit-Dynamic */,
+			);
 			productName = QuotesApp;
 			productReference = 0412D6832B963CAF000C9CF8 /* QuotesApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +156,9 @@
 				Base,
 			);
 			mainGroup = 0412D67A2B963CAF000C9CF8;
+			packageReferences = (
+				047C183A2B96433C00FAEB18 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 0412D6842B963CAF000C9CF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +175,6 @@
 			files = (
 				0412D6932B963CB1000C9CF8 /* LaunchScreen.storyboard in Resources */,
 				0412D6902B963CB1000C9CF8 /* Assets.xcassets in Resources */,
-				0412D68E2B963CAF000C9CF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +185,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0412D68B2B963CAF000C9CF8 /* ViewController.swift in Sources */,
+				047C18402B96454500FAEB18 /* QuoteAPI.swift in Sources */,
+				047C18502B9746D400FAEB18 /* NorrisAPI.swift in Sources */,
+				0412D68B2B963CAF000C9CF8 /* MainViewController.swift in Sources */,
+				047C18462B973E4300FAEB18 /* DetailViewController.swift in Sources */,
+				047C184A2B97445000FAEB18 /* JokeAPI.swift in Sources */,
+				047C18522B97473500FAEB18 /* ChuckNorrisViewController.swift in Sources */,
 				0412D6872B963CAF000C9CF8 /* AppDelegate.swift in Sources */,
+				047C184E2B97457F00FAEB18 /* SegmentSwitchViewController.swift in Sources */,
+				047C18482B97408B00FAEB18 /* ImageAPI.swift in Sources */,
 				0412D6892B963CAF000C9CF8 /* SceneDelegate.swift in Sources */,
+				047C184C2B97448D00FAEB18 /* JokesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0412D68C2B963CAF000C9CF8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0412D68D2B963CAF000C9CF8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0412D6912B963CB1000C9CF8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +344,6 @@
 				INFOPLIST_FILE = QuotesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +371,6 @@
 				INFOPLIST_FILE = QuotesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +408,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		047C183A2B96433C00FAEB18 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		047C183B2B96433C00FAEB18 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 047C183A2B96433C00FAEB18 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		047C183D2B96433C00FAEB18 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 047C183A2B96433C00FAEB18 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0412D67B2B963CAF000C9CF8 /* Project object */;
 }
